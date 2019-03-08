@@ -1,0 +1,34 @@
+body {
+    background-color: khaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;    
+}
+
+.poet {
+    width: 25%;
+    float: left;
+    padding: 0px 20px;
+    margin: 10px;
+    background-color: sandybrown;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: sandybrown;
+}
+
+header, section {    
+    margin: auto;
+    width: 90%;
+}
+
+.painter {
+    padding: 20px;
+    margin: 10PX 0PX;
+    background-color: sandybrown;
+}
+
+img {
+    margin: 20px 10px 10px 10px;
+}
