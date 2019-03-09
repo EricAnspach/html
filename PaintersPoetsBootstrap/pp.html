@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Painters and Poets</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        div {
+            padding: 10px;
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col jumbotron jumbotron-fluid text-center">
+                <h1>Notable 19th Century Artists</h1>
+                <!--  -->
+                <nav class="navbar navbar-expand-sm bg-primary fixed-top">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- ml-auto positions navbar elements to the right -->
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Products</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="alert alert-success text-center alert-dismissible"><button type="button" class="close"
+                data-dismiss="alert">&times;</button>
+            It's the <a class="alert-link" href="#">Painter and Poet</a> page!
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3 class="display-4 text-center text-info">Painters</h3>
+                <a href="http://www.si.edu/museums" class="btn btn-primary btn-sm">Smithsonian Museum</a>
+                <div id="ab" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators"> 
+                                <li data-target="#ab" data-slide-to="0" class="active"></li>
+                                <li data-target="#ab" data-slide-to="1"></li>
+                                <li data-target="#ab" data-slide-to="2"></li>
+                        </ol>
+                    <a href="#ab" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#ab" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/ab-guerilla.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="images/ab-rocky.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="images/ab-capri.jpg" class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+
+                <p><span class="text-primary">
+                        <strong>Albert Bierstadt (January 7, 1830 – February 18, 1902)</strong></span> was a
+                    German-American painter best known for his lavish, sweeping
+                    landscapes of the American West. To paint the scenes, Bierstadt joined several journeys of the
+                    Westward Expansion. Though not the first artist to record these sites, Bierstadt was the foremost
+                    painter of these scenes for the remainder of the 19th century.</p>
+
+                <p>
+                    Born in Prussia, Bierstadt was brought to the United States at the age of one by his parents. He
+                    later returned to study painting for several years in Düsseldorf. He became part of the Hudson River
+                    School in New York, an informal group of like-minded painters who started painting along the Hudson
+                    River. Their style was based on carefully detailed paintings with romantic, almost glowing lighting,
+                    sometimes called luminism. An important interpreter of the western landscape, Bierstadt, along with
+                    Thomas Moran, is also grouped with the Rocky Mountain School.
+                </p>
+
+                <p><span class="text-primary"><strong>Winslow Homer (February 24, 1836 – September 29,
+                            1910)</strong></span> was an American landscape painter and printmaker, best known for his
+                    marine subjects. He is considered one of the foremost painters in 19th-century America and a
+                    preeminent figure in American art.</p>
+
+                <p>
+                    Largely self-taught, Homer began his career working as a commercial illustrator. He subsequently
+                    took up oil painting and produced major studio works characterized by the weight and density he
+                    exploited from the medium. He also worked extensively in watercolor, creating a fluid and prolific
+                    oeuvre, primarily chronicling his working vacations.</p>
+
+                <p><span class="text-primary"><strong>Mary Stevenson Cassatt (May 22, 1844 – June 14,
+                            1926)</strong></span>
+                    was an American painter and printmaker. She was born in Allegheny City, Pennsylvania (Now part of
+                    Pittsburgh's North Side), but lived much of her adult life in France, where she first befriended
+                    Edgar Degas and later exhibited among the Impressionists. Cassatt often created images of the social
+                    and private lives of women, with particular emphasis on the intimate bonds between mothers and
+                    children.</p>
+
+                <p>
+                    She was described by Gustave Geffroy in 1894 as one of "les trois grandes dames" (the three great
+                    ladies) of Impressionism alongside Marie Bracquemond and Berthe Morisot.</p>
+
+                <p><span class="text-primary"><strong>James Abbott McNeill Whistler (July 11, 1834 – July 17,
+                            1903)</strong></span>
+                    was an American artist, active during the American Gilded Age and based primarily in the United
+                    Kingdom. He was averse to sentimentality and moral allusion in painting, and was a leading proponent
+                    of the credo "art for art's sake". His famous signature for his paintings was in the shape of a
+                    stylized butterfly possessing a long stinger for a tail. The symbol was apt, for it combined both
+                    aspects of his personality: his art is characterized by a subtle delicacy, while his public persona
+                    was combative. He found a parallel between painting and music and entitled many of his paintings
+                    "arrangements", "harmonies", and "nocturnes", emphasizing the primacy of tonal harmony. His most
+                    famous painting is Arrangement in Grey and Black No. 1 (1871), commonly known as Whistler's Mother,
+                    the revered and often parodied portrait of motherhood. Whistler influenced the art world and the
+                    broader culture of his time with his artistic theories and his friendships with leading artists and
+                    writers.
+                </p>
+            </div>
+
+            <div class="col-sm-6">
+                <h3 class="display-4 text-center text-warning">Poets</h3>
+                <div class="d-flex justify-content-center">
+                    <div class="btn-group text-center">
+                        <button data-toggle="collapse" data-target="#frost" class="btn btn-primary">Robert Frost</button>
+                        <button data-toggle="collapse" data-target="#dickinson" class="btn btn-primary">Emily
+                            Dickinson</button>
+                        <button data-toggle="collapse" data-target="#whitman" class="btn btn-primary">Walt Whitman</button>
+                        <!-- <a href="#" class="btn btn-primary">Emily Dickinson</a>
+                        <a href="#" class="btn btn-primary">Walt Whitman</a> -->
+                        <!-- <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Walt</a>
+                                    <a href="#" class="dropdown-item">Whitman</a> -->
+                    </div>
+                </div>
+
+                <div id="frost" class="collapse">
+                    <p><span class="text-primary"><strong>Robert Lee Frost (March 26, 1874 – January 29,
+                                1963)</strong></span> was an American poet. His work was initially
+                        published in England before it was published in America. Known for his realistic depictions of
+                        rural
+                        life and his command of American colloquial speech, Frost frequently wrote about settings from
+                        rural
+                        life in New England in the early twentieth century, using them to examine complex social and
+                        philosophical themes.</p>
+
+                    <p>
+                        Frost was honored frequently during his lifetime, receiving four Pulitzer Prizes for Poetry. He
+                        became
+                        one of America's rare "public literary figures, almost an artistic institution." He was awarded
+                        the
+                        Congressional Gold Medal in 1960 for his poetic works. On July 22, 1961, Frost was named poet
+                        laureate
+                        of Vermont.</p>
+
+                    <pre class="text-center">
+                        Stopping by Woods on a Snowy Evening
+                        Whose woods these are I think I know.
+                        His house is in the village though;
+                        He will not see me stopping here
+                        To watch his woods fill up with snow.
+    
+                        My little horse must think it queer
+                        To stop without a farmhouse near
+                        Between the woods and frozen lake
+                        The darkest evening of the year.
+    
+                        He gives his harness bells a shake
+                        To ask if there is some mistake.
+                        The only other sound’s the sweep
+                        Of easy wind and downy flake.
+    
+                        The woods are lovely, dark and deep,
+                        But I have promises to keep,
+                        And miles to go before I sleep,
+                        And miles to go before I sleep.</pre>
+                </div>
+
+                <div id="dickinson" class="collapse">
+                    <p><span class="text-primary"><strong>Emily Elizabeth Dickinson (December 10, 1830 – May 15,
+                                1886)</strong></span> was an American poet.
+                        Dickinson was born in Amherst, Massachusetts into a prominent family with strong ties to its
+                        community.
+                        After studying at the Amherst Academy for seven years in her youth, she briefly attended the
+                        Mount
+                        Holyoke Female Seminary before returning to her family's house in Amherst.
+                        Some argue that Dickinson lived much of her life in reclusive isolation. Considered an eccentric
+                        by
+                        locals, she developed a noted penchant for white clothing and became known for her reluctance to
+                        greet
+                        guests or, later in life, to even leave her bedroom. Dickinson never married, and most
+                        friendships
+                        between her and others depended entirely upon correspondence.[2]</p>
+
+                    <p>
+                        While Dickinson was a prolific private poet, fewer than a dozen of her nearly 1,800 poems were
+                        published
+                        during her lifetime. The work that was published during her lifetime was usually altered
+                        significantly
+                        by the publishers to fit the conventional poetic rules of the time. Her poems are unique for the
+                        era
+                        in
+                        which she wrote; they contain short lines, typically lack titles, and often use slant rhyme as
+                        well
+                        as
+                        unconventional capitalization and punctuation. Many of her poems deal with themes of death and
+                        immortality, two recurring topics in letters to her friends.</p>
+
+                    <pre class="text-center">
+                        They shut me up in Prose –
+                        As when a little Girl
+                        They put me in the Closet –
+                        Because they liked me "still" –
+    
+                        Still! Could themself have peeped –
+                        And seen my Brain – go round –
+                        They might as wise have lodged a Bird
+                        For Treason – in the Pound –
+                        Emily Dickinson, c. 1862</pre>
+                </div>
+
+                <div id="whitman" class="collapse">
+                    <p><span class="text-primary"><strong>Walter "Walt" Whitman ( May 31, 1819 – March 26,
+                                1892)</strong></span> was an American poet, essayist, and journalist. A
+                        humanist, he was a part of the transition between transcendentalism and realism, incorporating
+                        both
+                        views in his works. Whitman is among the most influential poets in the American canon, often
+                        called
+                        the
+                        father of free verse.His work was very controversial in its time, particularly his poetry
+                        collection
+                        Leaves of Grass, which was described as obscene for its overt sexuality.</p>
+
+                    <p> Born in Huntington on Long Island, Whitman worked as a journalist, a teacher, a government
+                        clerk,
+                        and—in
+                        addition to publishing his poetry—was a volunteer nurse during the American Civil War. Early in
+                        his
+                        career, he also produced a temperance novel, Franklin Evans (1842). Whitman's major work, Leaves
+                        of
+                        Grass, was first published in 1855 with his own money. The work was an attempt at reaching out
+                        to
+                        the
+                        common person with an American epic. He continued expanding and revising it until his death in
+                        1892.
+                        After a stroke towards the end of his life, he moved to Camden, New Jersey, where his health
+                        further
+                        declined. When he died at age 72, his funeral became a public spectacle.</p>
+
+                    <pre class="text-center">
+                        O Captain! my Captain! our fearful trip is done,
+                        The ship has weather’d every rack, the prize we sought is won,
+                        The port is near, the bells I hear, the people all exulting,
+                        While follow eyes the steady keel, the vessel grim and daring;
+                        But O heart! heart! heart!
+                        O the bleeding drops of red,
+                        Where on the deck my Captain lies,
+                        Fallen cold and dead.
+    
+                        O Captain! my Captain! rise up and hear the bells;
+                        Rise up—for you the flag is flung—for you the bugle trills,
+                        For you bouquets and ribbon’d wreaths—for you the shores a-crowding,
+                        For you they call, the swaying mass, their eager faces turning;
+                        Here Captain! dear father!
+                        This arm beneath your head!
+                        It is some dream that on the deck,
+                        You’ve fallen cold and dead.
+    
+                        My Captain does not answer, his lips are pale and still,
+                        My father does not feel my arm, he has no pulse nor will,
+                        The ship is anchor’d safe and sound, its voyage closed and done,
+                        From fearful trip the victor ship comes in with object won;
+                        Exult O shores, and ring O bells!
+                        But I with mournful tread,
+                        Walk the deck my Captain lies,
+                        Fallen cold and dead.</pre>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
